@@ -1,2 +1,2 @@
 #!/bin/bash
-set > variables.txt; less variables.txt; rm variables.txt
+env
