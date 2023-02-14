@@ -1,0 +1,1 @@
+in file 0-alias we have script that helps to create alias
