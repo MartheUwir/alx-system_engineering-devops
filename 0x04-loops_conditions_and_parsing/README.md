@@ -6,9 +6,14 @@ Bash
 Scripting
  By: Sylvain Kalache
  Weight: 1
- Project will start Jul 27, 2023 6:00 AM, must end by Jul 28, 2023 6:00 AM
- Checker was released at Jul 27, 2023 12:00 PM
+ Ongoing second chance project - started Jul 27, 2023 6:00 AM, must end by Aug 1, 2023 6:00 AM
  An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 25.0/83 mandatory & 10.0/30 optional
+Altogether:  40.16%
+Mandatory: 30.12%
+Optional: 33.33%
+Calculation:  30.12% + (30.12% * 33.33%)  == 40.16%
 About Bash projects
 Unless stated, all your projects will be auto-corrected with Ubuntu 20.04 LTS.
 
@@ -78,6 +83,7 @@ For every feedback, Shellcheck will provide a code that you can use to get more 
 Tasks
 0. Create a SSH RSA key pair
 mandatory
+Score: 0.0% (Checks completed: 0.0%)
 Read for this task:
 
 Linux and Mac OS users
@@ -101,9 +107,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 0-RSA_public_key.pub
-   
+    
 1. For Best School loop
 mandatory
+Score: 37.5% (Checks completed: 37.5%)
 Write a Bash script that displays Best School 10 times.
 
 Requirement:
@@ -133,9 +140,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 1-for_best_school
-   
+    
 2. While Best School loop
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a Bash script that displays Best School 10 times.
 
 Requirements:
@@ -158,9 +166,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 2-while_best_school
-   
+    
 3. Until Best School loop
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a Bash script that displays Best School 10 times.
 
 Requirements:
@@ -183,9 +192,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 3-until_best_school
-   
+    
 4. If 9, say Hi!
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a Bash script that displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
 
 Requirements:
@@ -210,9 +220,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 4-if_9_say_hi
-   
+    
 5. 4 bad luck, 8 is your chance
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a Bash script that loops from 1 to 10 and:
 
 displays bad luck for the 4th loop iteration
@@ -243,9 +254,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 5-4_bad_luck_8_is_your_chance
-   
+    
 6. Superstitious numbers
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a Bash script that displays numbers from 1 to 20 and:
 
 displays 4 and then bad luck from China for the 4th loop iteration
@@ -285,9 +297,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 6-superstitious_numbers
-   
+    
 7. Clock
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a Bash script that displays the time for 12 hours and 59 minutes:
 
 display hours from 0 to 12
@@ -374,9 +387,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 7-clock
-   
+    
 8. For ls
 mandatory
+Score: 63.64% (Checks completed: 63.64%)
 Write a Bash script that displays:
 
 The content of the current directory
@@ -413,9 +427,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 8-for_ls
-   
+    
 9. To file, or not to file
 mandatory
+Score: 11.11% (Checks completed: 11.11%)
 Write a Bash script that gives you information about the school file.
 
 Requirements:
@@ -454,9 +469,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 9-to_file_or_not_to_file
-   
+    
 10. FizzBuzz
 mandatory
+Score: 16.67% (Checks completed: 16.67%)
 Write a Bash script that displays numbers from 1 to 100.
 
 Requirements:
@@ -493,9 +509,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 10-fizzbuzz
-   
+    
 11. Read and cut
 #advanced
+Score: 100.0% (Checks completed: 100.0%)
 help: read
 
 Write a Bash script that displays the content of the file /etc/passwd.
@@ -576,9 +593,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 100-read_and_cut
-   
+    
 12. Tell the story of passwd
 #advanced
+Score: 16.67% (Checks completed: 16.67%)
 
 
 Read:
@@ -630,9 +648,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 101-tell_the_story_of_passwd
-   
+    
 13. Let's parse Apache logs
 #advanced
+Score: 11.11% (Checks completed: 11.11%)
 
 
 Apache is among the most popular web servers in the world, serving 50% of all active websites, no doubt that you will have to interact with it within your career.
@@ -668,9 +687,10 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 102-lets_parse_apache_logs
-   
+    
 14. Dig the data
 #advanced
+Score: 22.22% (Checks completed: 22.22%)
 Now that you’ve parsed the Apache log file, let’s sort the data so you can get a better idea of what is going on.
 
 Using what you did in the previous exercise, write a Bash script that groups visitors by IP and HTTP status code, and displays this data.
@@ -701,5 +721,5 @@ Repo:
 GitHub repository: alx-system_engineering-devops
 Directory: 0x04-loops_conditions_and_parsing
 File: 103-dig_the-data
-   
+    
 Copyright © 2023 ALX, All rights reserved.

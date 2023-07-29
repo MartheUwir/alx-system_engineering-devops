@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-#  Bash script that gives you information about the rca school file.
+#  Bash script that gives you information about the holbertonschool file.
 
-if [ -e "rca chool" ]
+if [ -e "holbertonschool" ]
 then
   echo "school file exists"
-  if [ -s "rca chool" ]
+  if [ -s "holbertonschool" ]
   then
     echo "school file is not empty"
   else
     echo "school file is empty"
   fi
 
-  if [ -f "rca chool" ]
+  if [ -f "holbertonschool" ]
   then
     echo "school file is a regular file"
   fi
