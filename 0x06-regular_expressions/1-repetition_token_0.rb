@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-# Match pattern hbttn, hbtttn, hbttttn or hbtttttn
+# A regular expression that is matches a given pattern
 puts ARGV[0].scan(/hbt{2,5}n/).join
